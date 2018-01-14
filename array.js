@@ -1,4 +1,4 @@
-function addElementToBeginningOfArray(addelement, element) {
+function addElementToBeginningOfArray(array, element) {
  // add the element to the beginning of the array without mutating the array
  return [element, ...array]
 }
@@ -11,7 +11,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element) {
-
+return [...array, element]
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
